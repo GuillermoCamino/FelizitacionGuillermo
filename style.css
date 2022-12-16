@@ -48,17 +48,14 @@ img{
     top: 0;
     left: 0;
 }
-@media all and (orientation:landscape){
-img, #mensaje, #campana, button{
-    display:none;
-}
+
 #error{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 54%;
 }
-}
+
 p{
     margin: 0;
     padding: 0;
